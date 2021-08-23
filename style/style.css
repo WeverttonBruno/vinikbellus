@@ -1,0 +1,114 @@
+*{
+    /*margin do título*/
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+body {
+    margin: 0;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 14;
+      top: 0;
+      width: 100%;
+     
+  }
+  
+  li {
+      float: right;
+  }
+  
+  .logo{
+    font-family: 'Parisienne', cursive;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+  }
+.img{
+    padding: 5px 40px;
+
+
+}
+
+
+  li a {
+      
+      font-family: Arial, Helvetica, sans-serif;
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  li a:hover {
+      color: #FF1A23;
+     
+      
+    
+
+  }
+/*tirar a cor do link, caso eu quiser atribuir mas é só a.<NOME DA CLASSE>:*/
+a{
+
+    color: inherit;
+    text-decoration: none;
+}
+
+section{
+    padding: 100px;
+    background-image: url('/image/pexels-nick-demou-1319459.jpg');
+    background-size: cover;
+    overflow: hidden;
+    display: block;
+    width: 98,9vw;
+    height: 98vh;
+    padding: 10px;
+}
+
+.titulo1{
+    text-align: left;
+    color: white;
+   
+
+}
+
+
+.imagemdofundoabout{
+
+    background-image: url('/image/logo.png');
+}
+
+.titulogrande{
+color: #ffffff;
+font-family: 'Teko', sans-serif;
+font-size: 84px;
+font-weight: 500;
+padding: 200px;
+margin: 0;
+line-height: 1;
+}
+
+.paragrafoprincipal{
+    color: #A3A5A6;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+
+    margin: 0px, 0px, 14, 14px;
+    margin-top: auto;
+    margin-bottom: 9rem;
+    
+
+}
+
+
+
+
