@@ -1,106 +1,342 @@
-*{
+* {
     /*margin do título*/
     margin: 0px;
     padding: 0px;
-    
-
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
-  }
-  
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 14;
-      top: 0;
-      width: 100%;
-     
-  }
-  
-  li {
-      float: right;
-  }
-  
-  .logo{
-    font-family: 'Parisienne', cursive;
+}
+
+header {
+    margin-bottom: opx;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*listas*/
+
+#menu ul {
+    margin-right: 5%;
+}
+
+
+/*listas*/
+
+#menu li {
+    margin-right: 0.5%;
+    display: inline;
+    padding: 15px;
+    float: right;
+}
+
+
+/*Professional Haircuts & </br>Shaves for Real Man*/
+
+#banner h1 {
+    padding: 0px;
+    float: left;
+    left: 0.7em;
+    margin: 0px;
+    display: block;
+    line-height: 1;
+    color: white;
+    position: relative;
+    font-size: 88px;
+    font-weight: 500;
+    top: 19%;
+    font-family: 'Teko', sans-serif;
+}
+
+
+/*Abaixo do título*/
+
+#abaixoT {
+    padding: 0px;
+    float: left;
+    left: 3.4em;
+    margin: 0px;
+    display: block;
+    line-height: 1;
+    color: #A09E9E;
+    position: relative;
+    font-size: 20px;
+    top: 17%;
+}
+
+
+/*Botão em sí*/
+
+#button {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #1c78fa;
+    color: white;
+    border-radius: 0px 0px 0px 0px;
+    border: none;
+    padding: 24px 36px 24px 36px;
+    box-shadow: none;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+
+/*Efeito do botão*/
+
+#button:hover {
+    background-color: #0a4ea0;
+}
+
+.img {
+    margin-top: 55px;
+}
+
+#banner {
+    position: relative;
+    background-image: url('../image/background.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: 0px 0px;
+}
+
+
+/*Menu*/
+
+li a {
+    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 40px;
+    padding: 14px 16px;
     text-decoration: none;
-  }
-.img{
-    padding: 5px 40px;
-
-
 }
 
-  li a {
-      
-      font-family: Arial, Helvetica, sans-serif;
-      display: inline-block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
-  
-  li a:hover {
-      color: #FF1A23;
-     
-      
-    
 
-  }
+/*efeito menu*/
+
+li a:hover {
+    color: #1c78fa;
+}
+
+
 /*tirar a cor do link, caso eu quiser atribuir mas é só a.<NOME DA CLASSE>:*/
-a{
 
+a {
     color: inherit;
     text-decoration: none;
 }
 
-section{
-    padding: 30px;
-    background-image: url('../image/background.jpg');
-    background-size: cover;
-    overflow: hidden;
-    
+
+/*div do work*/
+
+#work {
+    background-color: black;
+    width: 100%;
+    height: 800px;
+    top: 150;
 }
 
-.titulo1{
-    text-align: left;
+
+/*about*/
+
+#Skills {
+    width: 100%;
+    height: 800px;
+    top: 150;
+    background-color: black;
     color: white;
-   
-
+    margin-bottom: 0;
 }
 
-.titulogrande{
-color: #ffffff;
-font-family: 'Teko', sans-serif;
-font-size: 84px;
-font-weight: 500;
-padding: 200px;
-margin: 0;
-line-height: 1;
+#contact {
+    width: 100%;
+    height: 800px;
+    top: 150;
+    background-image: url('../image/contact2.jpg');
 }
 
-#paragrafoprincipal{
-    color: #A3A5A6;
-    font-size: 120%;
+#imgg {
+    width: 597;
+    height: 420;
+    size: 100vh;
+    max-width: 597px;
+}
+
+
+/*Barbershop is More Than Hobby, It's Our Destiny!*/
+
+#text1 {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 68px;
     font-weight: 500;
-    width: 40%;
-    margin: 2%;
-    margin-top: 0px;
-    margin-bottom: 9rem;
-    
-   
-    
-    
-
+    padding: 0px;
+    margin: 0;
+    line-height: 1;
+    display: block;
+    float: center;
+    position: relative;
+    top: 3em;
+    margin-left: 2em;
 }
 
 
+/*Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor */
+
+#textD {
+    color: #A09E9E;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0;
+    line-height: 1;
+    display: block;
+    float: center;
+    position: relative;
+    top: 11em;
+    margin-left: 7.9em;
+}
 
 
+/*numero 5*/
+
+#five {
+    margin: 0px;
+    padding: 0px;
+    color: #1c78fa;
+    font-size: 150px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0;
+    line-height: 1;
+    display: block;
+    float: right;
+    position: relative;
+    margin-right: 2em;
+}
+
+
+/*numero 1*/
+
+#one {
+    color: #1c78fa;
+    font-size: 150px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0;
+    line-height: 1;
+    display: block;
+    float: right;
+    position: relative;
+    top: 1em;
+    margin-right: -0.5em;
+}
+
+
+/*Yers Experience*/
+
+#ex {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0;
+    line-height: 1;
+    display: block;
+    float: right;
+    position: relative;
+    top: 3em;
+    margin-right: -10em;
+}
+
+
+/*professional barbers*/
+
+#fun {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0;
+    line-height: 1;
+    display: block;
+    float: right;
+    position: relative;
+    top: 8em;
+    margin-right: -11.2em;
+}
+
+
+/*estrela*/
+
+#star {
+    color: #ffd700;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0;
+    line-height: 1;
+    display: block;
+    float: right;
+    position: relative;
+    top: 17em;
+    margin-right: 9em;
+}
+
+
+/*contagem de view*/
+
+#views {
+    color: #A09E9E;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0;
+    line-height: 1;
+    display: block;
+    float: right;
+    position: relative;
+    top: 30.5em;
+    margin-right: -6.5em;
+}
+
+
+/*tento galeria*/
+
+#textgallery {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 68px;
+    font-family: 'Teko', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#rodape {
+    width: 100%;
+    height: 1%;
+    padding: 10px;
+    background-color: black;
+    position: relative;
+}
+
+#copy {
+    top: 100em;
+    font-size: 18px;
+    color: #A09E9E;
+    text-align: center;
+}
+
+#HELP {
+    top: 100em;
+    font-size: 18px;
+    color: #A09E9E;
+    text-align: right;
+}
