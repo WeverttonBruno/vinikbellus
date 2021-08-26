@@ -162,7 +162,6 @@ a {
     width: 100%;
     height: 800px;
     top: 150;
-    filter: brightness(50%);
     background-image: url('../image/contact2.jpg');
 }
 
@@ -341,4 +340,14 @@ a {
     color: #A09E9E;
     position: relative;
     text-align: center;
+}
+
+#contatotitulo {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 68px;
+    font-family: 'Teko', sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
